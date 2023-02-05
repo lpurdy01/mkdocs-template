@@ -10,3 +10,6 @@ graph TD
 ```
 
 ## Sphinx Style Documentation Test
+
+### Hello World Documentation
+:::src.python_package.hello_world
