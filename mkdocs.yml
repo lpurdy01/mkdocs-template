@@ -95,6 +95,13 @@ repo_url: https://github.com/lpurdy01/mkdocs-template
 nav:
   - Welcome: index.md
   - 'Addons Test': test_addons.md
+  - Devcontainer: devcontainer.md
+  - Developer: developer.md
+  - pre-commit-config: pre-commit-config.md
+  - pylint: pylint.md
+  - pyproject: pyproject.md
+  - vscode: vscode.md
+  - workflows: workflows.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -302,8 +309,8 @@ theme:
   #- navigation.expand      # Expand all collapsable sections.
   #- navigation.instant     # Instant loading pages.
   #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-  #- navigation.sections    # Render top sections as groups.
-  - navigation.tabs         # Render top sections as tabs at the top.
+  - navigation.sections    # Render top sections as groups.
+  #- navigation.tabs         # Render top sections as tabs at the top.
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
   #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
   #- navigation.tracking    # Updates the url with highlighted section anchor.
@@ -312,7 +319,7 @@ theme:
   #
   #- search.highlight # Search will highlight the searched word(s) on the page.*
   #- search.share     # Adds an option to share a search query link.*
-  #- search.suggest   # Search will suggest the likeliest completion for a word.*
+  - search.suggest   # Search will suggest the likeliest completion for a word.*
   
   # Table of Contents
   #
